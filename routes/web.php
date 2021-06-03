@@ -21,6 +21,10 @@ Route::get('/service', function (){
     return view('pages.service');
 })->name('service');
 
+Route::get('/blog', function(){
+    return view('pages.blog');
+})->name('blog');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
