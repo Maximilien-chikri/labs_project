@@ -25,6 +25,14 @@ Route::get('/blog', function(){
     return view('pages.blog');
 })->name('blog');
 
+Route::get('/contact', function(){
+    return view('pages.contact');
+})->name('contact');
+
+Route::get('/elements', function(){
+    return view('pages.elements');
+})->name('elements');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

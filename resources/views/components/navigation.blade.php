@@ -10,8 +10,8 @@
             <li class="active"><a href="home">Home</a></li>
             <li><a href="service">Services</a></li>
             <li><a href="blog">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="elements.html">Elements</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="elements">Elements</a></li>
         </ul>
     </nav>
 </header>
